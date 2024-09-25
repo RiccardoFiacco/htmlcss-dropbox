@@ -35,6 +35,7 @@ li{
     line-height: 22px;
 }
 
+
 /*layout rules*/
 
 .container{
@@ -57,6 +58,11 @@ li{
 .row{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+.row-fs{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
 .row-nav{
@@ -98,6 +104,10 @@ li{
     align-items: flex-start;
 }
 
+.fs-50{
+    font-size: 50;
+}
+
 /*header*/
 .menu{
     display: flex;
@@ -129,7 +139,14 @@ li{
     position: absolute;
     bottom: 15px;
 }
-
+/*first section*/
+.radio-selection{
+    display: inline-block;
+}
+.section-title{
+    padding-top: 160px;
+    padding-bottom: 70px;
+}
 /*debug rules*/
 
 .debug{
