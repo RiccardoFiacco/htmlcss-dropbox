@@ -34,11 +34,6 @@ li{
     line-height: 22px;
 }
 
-.btn-like{
-    background-color: var(--button-color);
-    line-height: 1px;
-    color: white;
-}
 /*layout rules*/
 
 .container{
@@ -51,6 +46,12 @@ li{
 
 .container-xsm{
     width: var(--xsm);
+}
+
+.btn-like{
+    background-color: var(--button-color);
+    line-height: 1px;
+    color: white;
 }
 
 .row-nav{
@@ -93,7 +94,6 @@ li{
     align-items: flex-start;
 }
 
-
 /*header*/
 .menu{
     display: flex;
@@ -126,7 +126,6 @@ li{
     bottom: 15px;
 }
 
-.hero-
 /*debug rules*/
 
 .debug{
