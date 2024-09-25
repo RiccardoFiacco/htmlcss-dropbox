@@ -54,16 +54,19 @@ li{
     line-height: 1px;
     color: white;
 }
-
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .row-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.row{
+.row-type1{
     display: flex;
     justify-content: center;
-    
 }
 .plr-15{
     padding: 0 15px;
