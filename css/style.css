@@ -29,6 +29,7 @@ img {
     --max: 100%;
     --sm: 1208px;
     --xsm: 1000px;
+    --card: 253px;
 }
 
 li{
@@ -50,6 +51,10 @@ li{
     width: var(--xsm);
 }
 
+.container-card{
+    width: var(--card);
+}
+
 .btn-like{
     background-color: var(--button-color);
     line-height: 1px;
@@ -65,7 +70,7 @@ li{
     justify-content: flex-start;
     align-items: center;
 }
-.row-nav{
+.row-sb{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -91,13 +96,18 @@ li{
 .pb-30{
     padding-bottom: 30px;
 }
+.pb-47{
+    padding-bottom: 47px;
+}
 .pt-30{
     padding-top: 30px;
+}
+.ptb-11{
+    padding: 11px 0;
 }
 .bg-color{
     background-color: #B4D0E7;
 }
-
 .dfc{
     display: flex;
     flex-direction: column;
@@ -107,7 +117,6 @@ li{
 .fs-50{
     font-size: 50;
 }
-
 /*header*/
 .menu{
     display: flex;
@@ -134,7 +143,7 @@ li{
     width: 70%;
 }
 
-.fa-solid{
+.arrow-abs{
     font-size: 50;
     position: absolute;
     bottom: 15px;
@@ -142,10 +151,28 @@ li{
 /*first section*/
 .radio-selection{
     display: inline-block;
+    margin-right: 48px;
 }
 .section-title{
     padding-top: 160px;
     padding-bottom: 70px;
+}
+
+.col.w-1_3{
+    border:1px solid  grey;
+    width: calc(100%/3 - 47px);
+}
+
+.header-card{
+    border-bottom:1px solid  grey;
+}
+
+.sub-header-card{
+    row-gap: 18px;
+}
+
+.body-card{
+    row-gap: 27px;  
 }
 /*debug rules*/
 
