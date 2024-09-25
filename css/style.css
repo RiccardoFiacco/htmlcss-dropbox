@@ -29,3 +29,25 @@ img {
     --sm: 1208px;
     --xsm: 1000px;
 }
+
+/*layout rules*/
+
+.container{
+    width: var(--max);
+}
+
+.container-sm{
+    width: var(--sm);
+}
+
+.container-xsm{
+    width: var(--xsm);
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*header*/
+
