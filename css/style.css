@@ -1,0 +1,31 @@
+/* in common rules */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: currentColor;
+	text-decoration: none;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+:root{
+    --button-color: #0061FF;
+    --max: 100%;
+    --sm: 1208px;
+    --xsm: 1000px;
+}
