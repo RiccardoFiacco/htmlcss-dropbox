@@ -30,6 +30,16 @@ img {
     --xsm: 1000px;
 }
 
+li{
+    line-height: 22px;
+}
+
+.btn-like{
+    background-color: var(--button-color);
+    display: block;
+    line-height: 1px;
+    color: white;
+}
 /*layout rules*/
 
 .container{
@@ -49,5 +59,27 @@ img {
     justify-content: space-between;
     align-items: center;
 }
-/*header*/
 
+.plr-15{
+    padding: 0 15px;
+}
+.p-10{
+    padding: 10px;
+}
+
+
+/*header*/
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 0 15px;
+}
+.mi{
+    padding: 20px 15px;
+}
+
+/*debug rules*/
+.debug{
+    border: 2px solid black;
+}
