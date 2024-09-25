@@ -159,12 +159,12 @@ li{
 }
 
 .col.w-1_3{
-    border:1px solid  grey;
+    border:1px solid  #E6E6E7;
     width: calc(100%/3 - 47px);
 }
 
 .header-card{
-    border-bottom:1px solid  grey;
+    border-bottom:1px solid  #E6E6E7;
 }
 
 .sub-header-card{
