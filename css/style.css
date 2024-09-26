@@ -332,7 +332,9 @@ li{
 }
 
 /*after correction*/
-
+.flex{
+    display: flex;
+}
 .rowc{
     display: flex;
 }
@@ -348,7 +350,12 @@ li{
 .font-size-30{
     font-size: 30;
 }
-
+.flex-column{
+    flex-direction: column;
+}
+.align-start{
+    align-items: flex-start;
+}
 .col-40{
     width: 40%;
 }
@@ -362,4 +369,31 @@ li{
 }
 .bcolor-white{
     background-color: white;
+}
+
+.size-large{
+    font-size: large;
+}
+
+.paddingt-150{
+    padding-top: 150px;
+}
+
+.paddingb-150{
+    padding-bottom: 150px;
+}    
+.color-B4D0E7{
+    color: #B4D0E7;
+}
+
+.paddingb-70{
+    padding-bottom: 70px;
+}
+
+.paddingt-42{
+    padding-top: 42px;
+}
+
+.paddingb-42{
+    padding-bottom: 42px;
 }
