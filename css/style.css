@@ -86,6 +86,7 @@ li{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    gap: 75px;
 }
 .row-type1{
     display: flex;
@@ -150,14 +151,16 @@ li{
 .pt-50{
     padding-top: 50px;
 }
-
+.pt-75{
+    padding-top: 75px;
+}
 .w-100{
     width: 100%;
 }
 .w-1_3{
     width: calc(100%/3 - 50px);  
 }
-.rg-20{
+.cg-20{
     column-gap: 20px;
 }
 .rg-35{
@@ -165,6 +168,9 @@ li{
 }
 .rg-30{
     row-gap: 30px;
+}
+.rg-30{
+    row-gap: 20px;
 }
 .p-r{
     position:relative;
@@ -256,7 +262,11 @@ li{
 .btn-like.p-20-15.bc-white{
     background-color: white;
     color:black;
+}
 
+.title-mini-card{
+    font-size: 25;
+    padding-bottom: 40px;
 }
 /*debug rules*/
 
