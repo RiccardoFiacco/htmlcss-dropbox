@@ -370,7 +370,9 @@ li{
 .bcolor-white{
     background-color: white;
 }
-
+.color-white{
+    color: white;
+}
 .size-large{
     font-size: large;
 }
@@ -396,4 +398,32 @@ li{
 
 .paddingb-42{
     padding-bottom: 42px;
+}
+
+.col-1_5{
+    width: calc(100%/5);
+}
+
+.bg-color-black{
+    background-color: black;
+}
+
+.paddingt-100{
+    padding-top: 100px;
+}
+
+.paddingb-115{
+    padding-bottom: 115px;
+}
+
+.paddingb-30{
+    padding-bottom: 30px;
+}
+
+.paddingb-20{
+    padding-bottom: 20px;
+}
+
+.font-size-25{
+    font-size: 25px;
 }
