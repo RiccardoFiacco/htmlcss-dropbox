@@ -81,7 +81,11 @@ li{
     align-items: stretch;
     
 }
-
+.row-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .row-op{
     display: flex;
     justify-content: space-between;
@@ -166,6 +170,13 @@ li{
 .w-1_3{
     width: calc(100%/3 - 50px);  
 }
+.w-50{
+    width: 50%;  
+}
+.w-33{
+    width: calc(100%/3);  
+}
+
 .cg-20{
     column-gap: 20px;
 }
@@ -283,4 +294,10 @@ li{
 .debug{
     border: 2px dashed black;
     
+}
+
+.dfr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
