@@ -148,9 +148,14 @@ li{
 .w-100{
     width: 100%;
 }
-
+.rg-20{
+    column-gap: 20px;
+}
 .rg-35{
     row-gap: 35px;
+}
+.rg-30{
+    row-gap: 30px;
 }
 .p-r{
     position:relative;
@@ -231,12 +236,18 @@ li{
 .buy-now{
     text-decoration: solid;
 }
-/*middle apge rules*/
+/*middle page rules*/
+
 .col-3{
     width: 60%;
 }
 .col-4{
     width: 40%;
+}
+.btn-like.p-20-15.bc-white{
+    background-color: white;
+    color:black;
+
 }
 /*debug rules*/
 
