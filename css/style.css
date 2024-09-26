@@ -117,6 +117,10 @@ li{
 .fs-50{
     font-size: 50;
 }
+/*nav rules*/
+.logo-img{
+    display: block;
+}
 /*header*/
 .menu{
     display: flex;
