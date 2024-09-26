@@ -151,6 +151,9 @@ li{
     top: 30px;
     right: 30px;
 }
+.border{
+    border:1px solid  #E6E6E7;
+}
 /*nav rules*/
 .navbar .menu .logo-img{
     display: block;
