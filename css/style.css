@@ -90,6 +90,9 @@ li{
 .mg-auto{
     margin:0 auto;
 }
+.pt-150{
+    padding-top: 150px;
+}
 
 .p-20-15{
     padding: 20px 15px;
