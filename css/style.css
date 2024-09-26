@@ -73,7 +73,8 @@ li{
 .row-sb{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
+    
 }
 .row-type1{
     display: flex;
@@ -99,8 +100,17 @@ li{
 .pb-47{
     padding-bottom: 47px;
 }
+.pb-40{
+    padding-bottom: 40px;
+}
 .pt-30{
     padding-top: 30px;
+}
+.pb-24{
+    padding-bottom: 24px;
+}
+.pb-56{
+    padding-bottom: 56px;
 }
 .ptb-11{
     padding: 11px 0;
@@ -117,9 +127,34 @@ li{
 .fs-50{
     font-size: 50;
 }
+.p-20-30{
+    padding: 20px 30px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.rg-35{
+    row-gap: 35px;
+}
+.p-r{
+    position:relative;
+}
+.p-a{
+    position:absolute;
+}
+.rt-30{
+    top: 30px;
+    right: 30px;
+}
 /*nav rules*/
-.logo-img{
+.navbar .menu .logo-img{
     display: block;
+    padding-left: 0;
 }
 /*header*/
 .menu{
@@ -177,6 +212,10 @@ li{
 
 .body-card{
     row-gap: 27px;  
+}
+
+.buy-now{
+    text-decoration: solid;
 }
 /*debug rules*/
 
