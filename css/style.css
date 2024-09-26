@@ -30,6 +30,7 @@ img {
     --sm: 1208px;
     --xsm: 1000px;
     --card: 253px;
+    --middle-text:305;
 }
 
 li{
@@ -53,6 +54,10 @@ li{
 
 .container-card{
     width: var(--card);
+}
+
+.container-middle-text{
+    width: var(--middle-text);
 }
 
 .btn-like{
@@ -102,6 +107,9 @@ li{
 }
 .pb-47{
     padding-bottom: 47px;
+}
+.pl-45{
+    padding-left: 45px;
 }
 .pb-40{
     padding-bottom: 40px;
@@ -222,6 +230,13 @@ li{
 
 .buy-now{
     text-decoration: solid;
+}
+/*middle apge rules*/
+.col-3{
+    width: 60%;
+}
+.col-4{
+    width: 40%;
 }
 /*debug rules*/
 
