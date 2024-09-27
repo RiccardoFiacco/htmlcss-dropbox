@@ -100,50 +100,12 @@ li{
     display: flex;
     justify-content: center;
 }
-.plr-15{
-    padding: 0 15px;
-}
-.p-10{
-    padding: 10px;
-}
+
 
 .mg-auto{
     margin:0 auto;
 }
-.pt-150{
-    padding-top: 150px;
-}
 
-.p-20-15{
-    padding: 20px 15px;
-}
-.pb-30{
-    padding-bottom: 30px;
-}
-.pb-47{
-    padding-bottom: 47px;
-}
-.pl-45{
-    padding-left: 45px;
-}
-.pt-130{
-    padding-top: 130px;
-} 
-.pb-130{
-    padding-bottom: 130px;
-}
-.pb-40{
-    padding-bottom: 40px;
-}
-.pt-30{
-    padding-top: 30px;
-}
-.pb-24{
-    padding-bottom: 24px;
-}
-.pb-56{
-    padding-bottom: 56px;
-}
 .mb-150{
     margin-bottom: 150px;
 }
@@ -212,9 +174,7 @@ li{
     top: 30px;
     right: 30px;
 }
-.border{
-    border:1px solid  #E6E6E7;
-}
+
 .color-61082B{
     color: #61082B;
 }
@@ -264,10 +224,7 @@ li{
     padding-bottom: 70px;
 }
 
-.col.w-1_3{
-    border:1px solid  #E6E6E7;
-    width: calc(100%/3 - 47px);
-}
+
 
 .header-card{
     border-bottom:1px solid  #E6E6E7;
@@ -286,12 +243,7 @@ li{
 }
 /*middle page rules*/
 
-.col-3{
-    width: 60%;
-}
-.col-4{
-    width: 40%;
-}
+
 .btn-like.p-20-15.bc-white{
     background-color: white;
     color:black;
@@ -327,6 +279,8 @@ li{
 }
 
 /*after correction*/
+
+/* flex rules */
 .flex{
     display: flex;
 }
@@ -348,9 +302,7 @@ li{
 .align-center{
     align-items: center;
 }
-.font-size-30{
-    font-size: 30;
-}
+
 .flex-column{
     flex-direction: column;
 }
@@ -363,8 +315,62 @@ li{
 .gap-75{
     gap: 75px;
 }
+.row-gap-27{
+    row-gap: 27px; 
+}
+.row-gap-18{
+    row-gap: 18px; 
+}
+
+/* end flex rules */
+
+/* column rules */
 .col-40{
     width: 40%;
+}
+.col-1_5{
+    width: calc(100%/5);
+}
+.col-60{
+    width: 60%;
+}
+.col-1_3-47{
+    width: calc(100%/3 - 47px);
+}
+
+/* end column rules */
+
+/* start color and background rules */
+
+.bcolor-white{
+    background-color: white;
+}
+.color-white{
+    color: white;
+}
+.color-B4D0E7{
+    color: #B4D0E7;
+}
+.bg-color-black{
+    background-color: black;
+}
+
+/* end color and background rules */
+
+/* border rules */
+
+.borderbot-1solid-E6E6E7{
+    border-bottom:1px solid  #E6E6E7;
+}
+.border-1solid-E6E6E7{
+    border:1px solid  #E6E6E7;
+}
+
+/* end border rules */
+
+/* start padding rules */
+.paddinglr-15{
+    padding: 0 15px;
 }
 .paddinglr-50 {
     padding-left:50px;
@@ -374,63 +380,71 @@ li{
     padding-top: 15px ;
     padding-bottom: 15px;
 }
-.bcolor-white{
-    background-color: white;
+.paddingt-150{
+    padding-top: 150px;
 }
-.color-white{
-    color: white;
+.paddingb-150{
+    padding-bottom: 150px;
+} 
+.paddingb-70{
+    padding-bottom: 70px;
+}
+.paddingt-42{
+    padding-top: 42px;
+}
+.paddingb-42{
+    padding-bottom: 42px;
+}
+.paddingt-100{
+    padding-top: 100px;
+}
+.paddingb-115{
+    padding-bottom: 115px;
+}
+.paddingb-30{
+    padding-bottom: 30px;
+}
+.paddingb-20{
+    padding-bottom: 20px;
+}
+.padding-20-15{
+    padding: 20px 15px;
+}
+.paddingb-47{
+    padding-bottom: 47px;
+}
+.paddingl-45{
+    padding-left: 45px;
+}
+.paddingt-130{
+    padding-top: 130px;
+} 
+.paddingb-130{
+    padding-bottom: 130px;
+}
+.paddingb-40{
+    padding-bottom: 40px;
+}
+.paddingt-30{
+    padding-top: 30px;
+}
+.paddingb-24{
+    padding-bottom: 24px;
+}
+.paddingb-56{
+    padding-bottom: 56px;
+}
+/* end padding rules*/
+
+/* font size rules*/
+.font-size-25{
+    font-size: 25px;
+}
+
+.font-size-30{
+    font-size: 30;
 }
 .size-large{
     font-size: large;
 }
-
-.paddingt-150{
-    padding-top: 150px;
-}
-
-.paddingb-150{
-    padding-bottom: 150px;
-}    
-.color-B4D0E7{
-    color: #B4D0E7;
-}
-
-.paddingb-70{
-    padding-bottom: 70px;
-}
-
-.paddingt-42{
-    padding-top: 42px;
-}
-
-.paddingb-42{
-    padding-bottom: 42px;
-}
-
-.col-1_5{
-    width: calc(100%/5);
-}
-
-.bg-color-black{
-    background-color: black;
-}
-
-.paddingt-100{
-    padding-top: 100px;
-}
-
-.paddingb-115{
-    padding-bottom: 115px;
-}
-
-.paddingb-30{
-    padding-bottom: 30px;
-}
-
-.paddingb-20{
-    padding-bottom: 20px;
-}
-
-.font-size-25{
-    font-size: 25px;
-}
+/* end font size rules*/
