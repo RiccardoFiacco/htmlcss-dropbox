@@ -69,11 +69,6 @@ li{
 
 
 /*aggiustare tutte queste row, con approccio utility first*/
-
-.flex {
-    display: flex;
-}
-
 .row{
     display: flex;
     justify-content: center;
@@ -344,6 +339,12 @@ li{
 .justify-between{
     justify-content: space-between;
 }
+.justify-start{
+    justify-content: flex-start;
+}
+.align-stretch{
+    align-items: stretch;
+}
 .align-center{
     align-items: center;
 }
@@ -355,6 +356,12 @@ li{
 }
 .align-start{
     align-items: flex-start;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.gap-75{
+    gap: 75px;
 }
 .col-40{
     width: 40%;
