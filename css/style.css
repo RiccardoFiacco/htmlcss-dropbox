@@ -60,12 +60,12 @@ li{
     width: var(--middle-text);
 }
 
+/* divisa */
 .btn-like{
     background-color: var(--button-color);
     line-height: 1px;
     color: white;
 }
-
 
 
 /*aggiustare tutte queste row, con approccio utility first*/
@@ -100,6 +100,7 @@ li{
     display: flex;
     justify-content: center;
 }
+
 
 
 .mg-auto{
@@ -175,25 +176,14 @@ li{
     right: 30px;
 }
 
-.color-61082B{
-    color: #61082B;
+.display-block{
+    display: block;
 }
 /*nav rules*/
 .navbar .menu .logo-img{
     display: block;
     padding-left: 0;
 }
-/*header*/
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    gap: 0 15px;
-}
-.mi{
-    padding: 20px 15px;
-}
-
 /*hero*/
 .hero-title{
     font-size: 100;
@@ -302,7 +292,6 @@ li{
 .align-center{
     align-items: center;
 }
-
 .flex-column{
     flex-direction: column;
 }
@@ -320,6 +309,9 @@ li{
 }
 .row-gap-18{
     row-gap: 18px; 
+}
+.gap-0-15{
+    gap: 0 15px;
 }
 
 /* end flex rules */
@@ -354,7 +346,12 @@ li{
 .bg-color-black{
     background-color: black;
 }
-
+.bgcolor-blu{
+    background-color: var(--button-color);
+}
+.color-61082B{
+    color: #61082B;
+}
 /* end color and background rules */
 
 /* border rules */
@@ -446,5 +443,8 @@ li{
 }
 .size-large{
     font-size: large;
+}
+.line-height-1{
+    line-height: 1px;
 }
 /* end font size rules*/
