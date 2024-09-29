@@ -39,6 +39,9 @@ li{
 
 
 /*layout rules*/
+.margin-auto{
+    margin:0 auto;
+}
 
 .container{
     width: var(--max);
@@ -66,7 +69,6 @@ li{
     line-height: 1px;
     color: white;
 }
-
 
 /*aggiustare tutte queste row, con approccio utility first*/
 .row{
@@ -101,20 +103,16 @@ li{
     justify-content: center;
 }
 
-
-
-.mg-auto{
+.margin-auto{
     margin:0 auto;
 }
 
 .mb-150{
     margin-bottom: 150px;
 }
+
 .ptb-11{
     padding: 11px 0;
-}
-.bg-color{
-    background-color: #B4D0E7;
 }
 .dfc{
     display: flex;
@@ -175,35 +173,7 @@ li{
     top: 30px;
     right: 30px;
 }
-
-.display-block{
-    display: block;
-}
 /*nav rules*/
-.navbar .menu .logo-img{
-    display: block;
-    padding-left: 0;
-}
-/*hero*/
-.hero-title{
-    font-size: 100;
-    padding-top: 86px;
-    padding-bottom: 62px;
-}
-
-.col-1{
-    width: 30%;
-    position:relative;
-}
-.col-2{
-    width: 70%;
-}
-
-.arrow-abs{
-    font-size: 50;
-    position: absolute;
-    bottom: 15px;
-}
 /*first section*/
 .radio-selection{
     display: inline-block;
@@ -213,8 +183,6 @@ li{
     padding-top: 160px;
     padding-bottom: 70px;
 }
-
-
 
 .header-card{
     border-bottom:1px solid  #E6E6E7;
@@ -232,8 +200,6 @@ li{
     text-decoration: solid;
 }
 /*middle page rules*/
-
-
 .btn-like.p-20-15.bc-white{
     background-color: white;
     color:black;
@@ -269,7 +235,18 @@ li{
 }
 
 /*after correction*/
+/*postition*/
 
+.position-relative{
+    position: relative;
+}
+.position-absolute{
+    position: absolute;
+}
+
+.bottom-30{
+    bottom: 30px;
+}
 /* flex rules */
 .flex{
     display: flex;
@@ -317,6 +294,10 @@ li{
 /* end flex rules */
 
 /* column rules */
+.col-30{
+    width: 30%;
+}
+
 .col-40{
     width: 40%;
 }
@@ -325,6 +306,9 @@ li{
 }
 .col-60{
     width: 60%;
+}
+.col-70{
+    width: 70%;
 }
 .col-1_3-47{
     width: calc(100%/3 - 47px);
@@ -342,6 +326,9 @@ li{
 }
 .color-B4D0E7{
     color: #B4D0E7;
+}
+.bg-color-B4D0E7{
+    background-color: #B4D0E7;
 }
 .bg-color-black{
     background-color: black;
@@ -366,6 +353,7 @@ li{
 /* end border rules */
 
 /* start padding rules */
+
 .paddinglr-15{
     padding: 0 15px;
 }
@@ -431,15 +419,36 @@ li{
 .paddingb-56{
     padding-bottom: 56px;
 }
+.paddingt-86{
+    padding-top: 86px;
+}
+.paddingb-62{
+    padding-bottom: 62px;    
+}
+
 /* end padding rules*/
+
+/*margin rules*/
+.marginb-65{
+    margin-bottom: 35px;
+}
+.margint-60{
+    margin-top: 30px;
+}
+/*end margin rules*/
 
 /* font size rules*/
 .font-size-25{
     font-size: 25px;
 }
-
+.font-size-100{
+    font-size: 100;
+}
 .font-size-30{
     font-size: 30;
+}
+.font-size-50{
+    font-size: 50;
 }
 .size-large{
     font-size: large;
@@ -448,3 +457,4 @@ li{
     line-height: 1px;
 }
 /* end font size rules*/
+
